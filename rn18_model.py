@@ -6,6 +6,8 @@ Reference:
 Surpassing human-level performance on imagenet classification. In
 ICCV, 2015.
 """
+# attribution 
+# https://www.kaggle.com/code/duanjingxian/implementing-resnet-18-using-keras/notebook
 
 from keras.callbacks import EarlyStopping
 from keras.layers import Dense, Conv2D,  MaxPool2D, Flatten, GlobalAveragePooling2D,  BatchNormalization, Layer, Add
